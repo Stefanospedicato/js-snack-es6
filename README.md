@@ -17,4 +17,9 @@ Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più p
 La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
 
 ## Papar Information
--
+- Per il primo snack:
+ - Ho creato l'array con diversi oggetti al suo interno
+ - Ho cosi attribuito ad una variabile il fatto che di default una delle biciclette fosse già la più leggera (variabile bicicletteLeggera)
+ - Con un classico ciclo for ho determinato poi la variabile del singolo oggetto dell'array (bicicletta in questo caso)
+ - Con l'if ho determinato che se la bicicletta presa in questione fosse più leggera della precedente, essa sarebbe diventata la nuova biciclettaLeggera.
+ - Ho poi messo tutto in pagina html

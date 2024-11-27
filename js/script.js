@@ -12,27 +12,35 @@ Pseudo:
 
 const biciclette = [
   {
-    nome : 'bicicletta classica',
+    nome : 'la bicicletta classica',
     peso : 9
   },
   {
-    nome : 'tandem',
+    nome : 'il tandem',
     peso : 20
   },
   {
-    nome : 'mountain bike',
+    nome : 'la mountain bike',
     peso : 8
   },
   {
-    nome : 'bicicletta con rotelle',
+    nome : 'la bicicletta con rotelle',
     peso : 10
   },
   {
-    nome : 'bicicletta da corsa',
-    peso : 5,
+    nome : 'la bicicletta da corsa',
+    peso : 15,
   },
 ]
 
 let biciclettaLeggera = biciclette[0]
 
-for (let i = 0 ; i < biciclette.length ; i++){}
+for (let i = 0 ; i < biciclette.length ; i++){
+  const bicicletta = biciclette[i];
+  if(bicicletta.peso < biciclette[0].peso){
+    biciclettaLeggera=bicicletta
+  }
+}
+
+document.getElementById('titolo').innerHTML=`La bicicletta che pesa di meno è ${biciclettaLeggera.nome}`;
+document.getElementById('peso').innerHTML=`e il suo peso è di kg. ${biciclettaLeggera.peso}!`
