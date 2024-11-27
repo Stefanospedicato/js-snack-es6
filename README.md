@@ -17,17 +17,25 @@ Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più p
 La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
 
 ## Papar Information
-- Per il primo snack:
+Per il primo snack:
  - Ho creato l'array con diversi oggetti al suo interno
  - Ho cosi attribuito ad una variabile il fatto che di default una delle biciclette fosse già la più leggera (variabile bicicletteLeggera)
  - Con un classico ciclo for ho determinato poi la variabile del singolo oggetto dell'array (bicicletta in questo caso)
  - Con l'if ho determinato che se la bicicletta presa in questione fosse più leggera della precedente, essa sarebbe diventata la nuova biciclettaLeggera.
  - Ho poi messo tutto in pagina html
 
-- Per il secondo snack:
+ Per il secondo snack:
  - Ho creato il mio array iniziale con 5 squadre e le loro proprietà.
  - Ho creato la funzione per generare i numeri casuali.
  - Ho creato un ciclo for classico per assegnare alle proprietà dei punti e dei falli i numeri casuali.
  - Sono passato al punto successivo e ho creato un array vuoto da popolare con le stesse squadre e ma sono con la proprietà falli e nome.
  - Per popolarlo ho creato un altro ciclo for dove attribuisco ad una variabile chiamata squadra il formato scelto per il nuovo oggetto.
  - Ho pushato il tutto nel nuovo array.
+
+ Per il terzo snack: 
+  - Creo un array con degli elementi random
+  - Creo una const che accetti la mia funzione
+  - Intesto funzione a tre parametri === min , max , array
+  - La funzione ha un array vuoto da popolare al suo interno
+  - Ho pushato in questo array, utilizzando il metodo slice, gli elementi di 'array'.
+  - Nelle parentesi dello slice ho dato al min un +1, perchè se no mi aggiungerebbe l'elemento di quell'esatto indice, mentre noi vogliamo quelli compresi tra i due valori di min e max.
